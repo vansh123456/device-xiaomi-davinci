@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     antradio_app
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
