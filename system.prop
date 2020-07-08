@@ -56,4 +56,5 @@ wifi.interface=wlan0
 persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Maintainer_Name
+PRODUCT_PROPERTY_OVERRIDES+= \
 ro.wrath.maintainer=Vansh_Bhatnagar
