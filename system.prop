@@ -54,3 +54,6 @@ wifi.interface=wlan0
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Maintainer_Name
+ro.wrath.maintainer=Vansh_Bhatnagar
