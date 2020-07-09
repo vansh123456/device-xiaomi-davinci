@@ -19,5 +19,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     ancient_davinci-user \
-    ancientdavinci-userdebug \
+    ancient_davinci-userdebug \
     ancient_davinci-eng
