@@ -25,9 +25,9 @@ INITIAL_COPYRIGHT_YEAR=2020
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-WRATH_ROOT="${MY_DIR}/../../.."
+ANCIENT_ROOT="${MY_DIR}/../../.."
 
-HELPER="${WRATH_ROOT}/vendor/wrath/build/tools/extract_utils.sh"
+HELPER="${ANCIENT_ROOT}/vendor/ancient/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -35,7 +35,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for common
-setup_vendor "${DEVICE}" "${VENDOR}" "${WRATH_ROOT}" false
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANCIENT_ROOT}" false
 
 # Copyright headers and guards
 write_headers "${DEVICE}"
