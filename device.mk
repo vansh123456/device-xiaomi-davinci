@@ -189,12 +189,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     vendor.lineage.livedisplay@2.0-service-sdm \
-    vendor.lineage.livedisplay@2.0-service.davinci
-=======
-    vendor.lineage.livedisplay@2.0-service-sdm
->>>>>>> 0d9ab7c... davinci: Build livedisplay
 
 # Media
 PRODUCT_PACKAGES += \
