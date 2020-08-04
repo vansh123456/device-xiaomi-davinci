@@ -41,3 +41,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Ancient Stuff
+ANCIENT_OFFICIAL := true
