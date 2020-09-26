@@ -23,6 +23,9 @@
     -->
     <integer name="config_fingerprintSensorLocation">4</integer>
 
+	<!-- FOD recognizing animation -->
+    <bool name="config_showFODAnimationSettings">true</bool>
+
     <!-- Screen off FOD -->
     <bool name="config_supportScreenOffFod">true</bool>
 
