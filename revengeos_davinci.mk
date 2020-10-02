@@ -21,8 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from davinci device
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
+TARGET_USES_BLUR := true
 
 PRODUCT_NAME := revengeos_davinci
 PRODUCT_DEVICE := davinci
