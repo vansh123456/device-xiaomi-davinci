@@ -35,12 +35,12 @@
     <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
 
-    <!-- Pick-up to wake gesture-->
-    <string name="wake_gesture_title">Wake up</string>
-    <string name="wake_gesture_summary">Wake up the device instead of pulsing notifications</string>
+    <!-- Raise to wake gesture-->
+    <string name="raise_to_wake_title">Wake up</string>
+    <string name="raise_to_wake_summary">Wake up the device instead of pulsing notifications</string>
 
-    <!-- Thermal Profiles -->
-    <string name="thermal_title">Thermal Profiles</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Thermal profiles</string>
     <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
     <string name="thermal_default">Default</string>
     <string name="thermal_benchmark">Benchmark</string>
