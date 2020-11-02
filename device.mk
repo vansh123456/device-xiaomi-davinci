@@ -301,6 +301,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # QTI
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
