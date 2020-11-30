@@ -137,6 +137,9 @@ BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 
+# MiuiCamera
+-include vendor/miuicamera/common/BoardConfigVendor.mk
+
 # Media
 TARGET_USES_ION := true
 TARGET_DISABLED_UBWC := true
