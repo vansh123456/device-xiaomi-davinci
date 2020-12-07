@@ -369,9 +369,8 @@ PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    vendor/qcom/opensource/commonsys/packages/apps/Bluetooth \
-    vendor/qcom/opensource/commonsys/system/bt/conf \
     hardware/qcom-caf/sm8150
+
 
 # Telephony
 PRODUCT_PACKAGES += \
