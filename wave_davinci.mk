@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
+$(call inherit-product, vendor/wave/config/common_full_phone.mk)
 
 # Inherit from MiuiCamera vendor
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
-PRODUCT_NAME := yaap_davinci
+PRODUCT_NAME := wave_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T

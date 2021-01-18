@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The yaapOS Project
+# Copyright (C) 2020 The waveOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_davinci.mk
+    $(LOCAL_DIR)/wave_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_davinci-user \
-    yaap_davinci-userdebug \
-    yaap_davinci-eng
+    wave_davinci-user \
+    wave_davinci-userdebug \
+    wave_davinci-eng
