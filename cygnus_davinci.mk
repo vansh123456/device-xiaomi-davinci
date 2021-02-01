@@ -33,6 +33,9 @@ TARGET_GAPPS_ARCH := arm64
 #$(call inherit-product, vendor/google/pixel/config.mk)
 $(call inherit-product, vendor/google/gms/config.mk)
 
+WITH_GAPPS := true
+CYGNUS_BUILD_TYPE := OFFICIAL
+
 PRODUCT_NAME := cygnus_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
