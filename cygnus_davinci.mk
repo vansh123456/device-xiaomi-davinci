@@ -24,11 +24,13 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/cygnus/configs/common.mk)
 
+$(call inherit-product, device/qcom/common/common.mk)
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
 # Inherit GApps
-$(call inherit-product, vendor/google/pixel/config.mk)
+#$(call inherit-product, vendor/google/pixel/config.mk)
 $(call inherit-product, vendor/google/gms/config.mk)
 
 PRODUCT_NAME := cygnus_davinci
