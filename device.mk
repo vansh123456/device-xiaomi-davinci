@@ -303,21 +303,14 @@ PRODUCT_CHARACTERISTICS := nosdcard
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
     bt \
-    perf
+    perf \
+    telephony
 
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
-    $(LOCAL_PATH)/configs/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
-
-# RIL
-PRODUCT_PACKAGES += \
-    libjson \
-    libril \
-    librilutils \
-    librmnetctl
+    $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -362,7 +355,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
@@ -411,8 +403,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
-    ipacm \
-    IPACM_cfg.xml \
     libwpa_client \
     WifiOverlay \
     wpa_supplicant \
