@@ -30,6 +30,7 @@ import org.lineageos.settings.popupcamera.PopupCameraUtils;
 import org.lineageos.settings.utils.FileUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.display.DcDimmingUtils;
+import org.lineageos.settings.vibrator.VibratorSettings;
 import org.lineageos.settings.display.KcalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -45,6 +46,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         DozeUtils.checkDozeService(context);
         PopupCameraUtils.startService(context);
         ThermalUtils.startService(context);
+        VibratorSettings.restoreValue(context);
         DcDimmingUtils.startService(context);
         if (KcalUtils.isKcalSupported())
             KcalUtils.writeCurrentSettings(sharedPrefs);
