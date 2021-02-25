@@ -43,6 +43,9 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 # Assert
 TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 
+# ANXCamera
+include vendor/aeonax/ANXCamera/BoardConfigAnx.mk
+
 # Audio
 AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
 AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true

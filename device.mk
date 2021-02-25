@@ -89,6 +89,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.pro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.pro.xml \
     frameworks/native/data/etc/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml
 
+# ANXCamera
+$(call inherit-product, vendor/aeonax/ANXCamera/anx-vendor.mk)
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     BluetoothQti
@@ -227,10 +230,6 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.davinci
-
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    GCamGo
 
 # Media
 PRODUCT_PACKAGES += \
