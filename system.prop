@@ -46,7 +46,7 @@ ro.recovery.ui.margin_height=48
 wifi.interface=wlan0
 
 # WaveOS
-ro.wave.maintainer=Vansh Bhatnagar (Noobieta)
+ro.wave.maintainer_name=Vansh Bhatnagar (Noobieta)
 
 # SurfaceFlinger brightness tweak
 ro.sf.force_light_brightness=1
