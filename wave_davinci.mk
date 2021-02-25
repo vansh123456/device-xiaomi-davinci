@@ -27,6 +27,9 @@ $(call inherit-product, vendor/wave/configs/common.mk)
 # Inherit from MiuiCamera vendor
 $(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
 
+# OPlauncher
+$(call inherit-product, vendor/oplauncher/OPLauncher.mk)
+
 PRODUCT_NAME := wave_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
