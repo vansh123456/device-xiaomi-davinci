@@ -24,9 +24,6 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/wave/configs/common.mk)
 
-# Inherit from MiuiCamera vendor
-$(call inherit-product, vendor/miuicamera/common/common-vendor.mk)
-
 # OPlauncher
 $(call inherit-product, vendor/oplauncher/OPLauncher.mk)
 
