@@ -303,8 +303,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3-service.sm6150-libperfmgr \
-    powerhint.json
+    android.hardware.power-service-qti
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := nosdcard
@@ -354,8 +353,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi \
-    hardware/qcom-caf/sm8150
-    hardware/google/pixel
+    hardware/qcom-caf/sm8150 
 
 # Telephony
 PRODUCT_PACKAGES += \
