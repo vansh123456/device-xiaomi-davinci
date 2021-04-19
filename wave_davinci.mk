@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/wave/config/common.mk)
+$(call inherit-product, vendor/wave/configs/common.mk)
 
 PRODUCT_NAME := wave_davinci
 PRODUCT_DEVICE := davinci
@@ -31,5 +31,4 @@ PRODUCT_MODEL := Mi 9T
 PRODUCT_MANUFACTURER := Xiaomi
 
 TARGET_BOOT_ANIMATION_RES := 1080
-SELINUX_IGNORE_NEVERALLOWS := true
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
