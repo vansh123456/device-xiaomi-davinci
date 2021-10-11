@@ -181,12 +181,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 VENDOR_SECURITY_PATCH := 2020-11-01
 
 # Sepolicy
-TARGET_SEPOLICY_DIR := msmsteppe
-include device/qcom/sepolicy_vndr/SEPolicy.mk
-
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy_minimal
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
